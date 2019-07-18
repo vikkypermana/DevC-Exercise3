@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: gainsboro;
+}
+.judul{
+    color: #3E3E3E;
+    font-size: 45pt;
+    font-weight: bolder;  
+    padding: 4px 10px;  
+}
+.subjudul{
+    color: #3e3e3e;
+    font-size: 28pt;
+    
+}footer{
+    position: fixed;
+    text-align: center;
+    bottom: 10px;
+    left: 0px;
+    width: 100%;
+    color: gray;
+}
+.dropdown select{
+    border: 1px solid gray;
+    width: 300px;
+    height: 50px;
+    padding: 10px 40px;
+    font-size: 14pt;
+    background-color: darkgrey;
+    color: white;
+}
+.dropdown button{
+    height: 50px;
+    width: 100px;
+    border: 1px solid grey;
+    background-color: #3E3E3E;
+    font-size: 12pt;
+    color: white;
+}
+.dropdown button:hover{
+    background-color: rebeccapurple;
+    color: white;
+}
+table{
+    width: 800px;
+    border-collapse: collapse;    
+    background-color: #3e3e3e;
+}
+table td{
+    border: 1px solid gray;
+    padding: 10px 20px;    
+    font-size: 12pt;
+    color: white;
+}

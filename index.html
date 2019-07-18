@@ -2,10 +2,64 @@
 <html lang="en">
 <head>
     <title>Exercise 3</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <center>
-        <h1>Daftar Planet</h1>
-    </center>
+        <div class="judul">Daftar Planet</div> <br>
+        <span class="dropdown" >
+            <span id="daftar_planet"></span>
+            <button onclick="getDataPlanet()">Get Detail</button>
+        </span>  
+        <hr>
+        <div class="subjudul">Planet Detail</div>
+        <br>
+        <table>
+           
+            <tbody id="tampil">
+                <tr>
+                    <td width="30%">Planet Name</td>
+                    <td id="nama_planet"></td>
+                </tr>
+                <tr>
+                    <td>Rotation Period</td>
+                    <td id="rotation_period"></td>
+                </tr>
+                <tr>
+                    <td>Orbital Period</td>
+                    <td id="orbital_period"></td>
+                </tr>
+                <tr>
+                    <td>Diameter</td>
+                    <td id="diameter"></td>
+                </tr>
+                <tr>
+                    <td>Climate</td>
+                    <td id="climate"></td>
+                </tr>
+                <tr>
+                    <td>Gravity</td>
+                    <td id="gravity"></td>
+                </tr>
+                <tr>
+                    <td>Terrain</td>
+                    <td id="terrain"></td>
+                </tr>
+                <tr>
+                    <td>Surface Water</td>
+                    <td id="surface_water"></td>
+                </tr>
+                <tr>
+                    <td>Population</td>
+                    <td id="population"></td>
+                </tr>
+            </tbody>
+        </table>
+    </center>   
+    <footer class="footer">
+        <small>created &copy;2019 by Vikky Permana for DevC - Batch 25</small>
+    </footer>  
 </body>
+<script src="script.js"></script>
 </html>
+    
